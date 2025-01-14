@@ -1,0 +1,131 @@
+.logo {
+    width: 100px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+.header-title {
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    background-color: #B3B3B3;
+    width: 100%;
+    height: 120px;
+}
+
+.navbar ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ list-style: none;
+ text-decoration: none;
+ position: relative;
+ top: -130px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    color: #F5621D;
+}
+
+.background {
+    width: 100%;
+}
+
+.main-content-text {
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    color: #F5621D;
+}
+
+.add-guest {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    text-align: center;
+    color: #ffffff;
+    background-color: #F5621D;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-guest:hover {
+    background-color: #005460;
+}
+
+.services {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+
+.services li {
+    width: 150px;
+    height: 50px;
+    background-color: #F5621D;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h3 {
+    margin-right: 5px;
+}
+
+span {
+    color: #005460;
+}
+
+table {
+    width: 700px;
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: #f3f3f3;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+}
